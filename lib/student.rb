@@ -3,10 +3,10 @@ class Student < User
     @Knowledge = []
   end
   def learn (string)
-    Knowledge << string
+    @Knowledge << string
   end
   def knowledge
-    self.Knowledge
+    
   end
     
     
